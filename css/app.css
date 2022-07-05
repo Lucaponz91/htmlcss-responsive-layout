@@ -140,5 +140,43 @@ ul{
 
 /* SEZIONE 2 */
     /* DESKTOP */
+    .section2{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #9792E4;
+    }
+    .row-section2{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        max-width: 940px;
+    }
+    .col-left-section2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 30px;
+    }
+    .col-left-section2 img {
+        max-width: 410px;
+        height: auto;
+    }
+    .col-right-section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        background-color: white;
+        border-radius: 25px;
+        align-self: flex-end;
+        margin: 30px;
+        padding: 15px;
+    }
+    .col-right-section2 img{
+        max-height: 250px;
+        aspect-ratio: 1/1;
+        width: auto;
+        height: auto;
+    }
     /* TABLET */
     /* MOBILE */
