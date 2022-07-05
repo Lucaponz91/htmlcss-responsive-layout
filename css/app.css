@@ -254,7 +254,7 @@ ul{
         background-color: white;
         border-radius: 15px;
     }
-    .col-section4 h1, h3{
+    .col-section4 h1, .col-section4 h3{
         color: #9792E4;
     }
     /* TABLET */
