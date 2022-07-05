@@ -72,9 +72,40 @@ ul{
 
 /* SEZIONE 1 */
     /* DESKTOP */
+    .row-container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .col-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-demo{
+        width: 66%;
+        display: flex;
+        flex-direction: row;
+        background-color: #B5DDFF;
+        border-radius: 25px;
+    }
+
+    .col-demo-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+        padding-inline: 20px;
+    }
+    .col-demo-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .col-demo-right img {
+        max-height: 270px;
+    }
     /* TABLET */
     @media screen and (max-width: 768px){
-        
+
     }
     /* MOBILE */
     @media screen and (max-width: 375px){
