@@ -175,8 +175,18 @@ ul{
     .col-right-section2 img{
         max-height: 250px;
         aspect-ratio: 1/1;
-        width: auto;
-        height: auto;
+        max-width: 100%;
     }
     /* TABLET */
+    @media screen and (max-width: 768px){
+        .row-section2{
+            flex-direction: column;
+        }
+        .col-left-section2{
+            width: 100%;
+        }
+        .col-right-section2{
+            width: 80%;
+        }
+    }
     /* MOBILE */
