@@ -232,3 +232,40 @@ ul{
             text-align: center;
         }
     }
+
+/* SEZIONE 4 */
+    /* DESKTOP */
+    .section4{
+        background-color: #9792E4;
+    }
+    .section4 > h1 {
+        text-align: center;
+        color: white;
+    }
+    .row-section4{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 15px;
+    }
+    .col-section4{
+        width: calc(calc(100% - 90px) / 3);
+        background-color: white;
+        border-radius: 15px;
+    }
+    .col-section4 h1, h3{
+        color: #9792E4;
+    }
+    /* TABLET */
+    @media screen and (max-width: 768px){
+        .col-section4{
+            width: calc(calc(95%-30px) / 2);
+        }
+    }
+    /* MOBILE */
+    @media screen and (max-width: 375px){
+        .col-section4{
+            width: 100%;
+        }
+    }
