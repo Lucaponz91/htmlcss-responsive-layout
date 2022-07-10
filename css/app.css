@@ -78,15 +78,20 @@ ul{
     }
     .row{
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 15px;
+    }
+    .row2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
     }
     .col-row{
         display: flex;
         flex-wrap: wrap;
     }
     .col-demo{
-        width: 66%;
         display: flex;
         flex-direction: row;
         background-color: #B5DDFF;
@@ -111,7 +116,6 @@ ul{
     .col{
         display: flex;
         flex-direction: column;
-        width: 33%;
         background-color: #B5DDFF;
         border-radius: 25px;
         padding: 30px;
@@ -345,4 +349,49 @@ ul{
     .section5 h2 {
       font-size: 3rem;
     }
+  }
+  /* SEZIONE 6 */
+  .section6 {
+    padding: 65px 0;
+    color: white;
+    text-align: center;
+    background-color: #9792E4;
+  }
+  
+  .section6 .adv {
+    font-size: 6rem;
+    color: #FDC15F;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: block;
+    font-weight: bolder;
+  }
+  
+  .section6 h2 {
+    font-size: 3rem;
+    margin-top: 35px;
+  }
+  
+  .section6 p {
+    line-height: 2rem;
+    font-size: 20px;
+  }
+  
+  .button-start {
+    background-color: white;
+    color: #9792E4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .button-big {
+    padding: 35px 80px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .section6 address {
+    font-style: normal;
+    font-size: 20px;
   }
